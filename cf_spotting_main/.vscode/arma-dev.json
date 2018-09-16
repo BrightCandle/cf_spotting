@@ -1,0 +1,17 @@
+{
+	"title": "CF_Spotting",
+	"name": "CF_Spotting",
+	"author": "BrightCandle",
+	"website": "http://www.charliefoxtrotops.com",
+	"version": "1.1.0",
+	"buildPath": "build",
+	"privateKey": "",
+	"serverDirs": [
+	],
+	"serverUse32bit": false,
+	"clientDirs": [
+		"."
+	],
+	"clientMods": [],
+	"ftpConnection": {}
+}

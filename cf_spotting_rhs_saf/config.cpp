@@ -1,3 +1,5 @@
+#include "\x\cf_spotting\addons\main\values.hpp"
+
 class CfgPatches
 {
 	class CF_Spotting_RHS_SAF
@@ -23,8 +25,8 @@ class CfgVehicles {
 	class SoldierGB : CAManBase {};
 	
 	class rhssaf_soldier_m10_base : SoldierGB {
-		sensitivity = 45;
-		sensitivityEar = 45;
+		sensitivity = cf_spotting_sensivitiy;
+		sensitivityEar = cf_spotting_sensitivityEar;
 	};
 	
 // Vehicles - Cars, Trucks & MRAPs
